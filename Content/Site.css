@@ -1,0 +1,199 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #666;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    height: 100%;
+    padding: 10px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+#alarmTable {
+    width: 100%;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/*#searchBtn::after {
+    content: '';
+}*/
+
+#map {
+    height: 100%;
+    z-index: 0;
+}
+
+.col-xs-6 {
+    height: 100%
+}
+
+.index-header {
+    height: 90%;
+}
+
+.service-row {
+    height: 90%;
+    padding: 10px;
+}
+
+    .service-row #map {
+        height: 100%;
+        margin-top: 10px;
+    }
+
+.outage-header {
+    min-height: 30px;
+    text-align: right;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-container > .col-xs-12 {
+    height: 100%;
+    padding: 0px;
+}
+
+.outage-header ul {
+    display: inline;
+}
+
+.main-container {
+    height: 75%;
+    max-height: 90%;
+    width: 100%;
+    margin: 0px;
+}
+
+.table-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.select-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+table {
+    border-collapse: separate;
+    border-top: none;
+    background-color: white;
+    width: 100%;
+}
+
+table td, th {
+    text-align: center;
+    padding: 5px;
+}
+
+thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background: #fff;
+}
+
+table th {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+table td {
+    border-bottom: 1px solid;
+    border-top: none;
+}
+
+.selected {
+    background-color: #cbcbcb;
+}
+
+.nav-tabs > li > a {
+    color: black;
+}
+
+.content-container {
+    height: 100%;
+}
+
+#tableMain td:nth-last-child(-n+2) {
+    display: none;
+}
+
+#mapContainer.col-xs-12 {
+    width: 100%;
+    height: 100%;
+}
+
+input[type=checkbox] {
+    margin: .4rem;
+}
+
+#outerSelect li {
+    list-style-type: none;
+}
+
+#noteContent {
+    height: 22.831vh;
+}
+
+
+.picker-container {
+    width: 100%;
+}
+
+#timePicker {
+    max-width: none;
+}
+
+#range {
+    color: #333;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 24px;
+}
+
+th:hover {
+    background-color: #808080;
+}
+
+.asc::after {
+    content: " \25BE";
+}
+
+.desc::after {
+    content: " \25B4";
+}
+
+.nav-tabs {
+    border-bottom: none;
+    
+}

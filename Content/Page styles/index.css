@@ -1,0 +1,30 @@
+﻿#tableMain th:nth-last-child(-n+4), td:nth-last-child(-n+4) {
+    display: none;
+}
+
+#tablePane {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mapPane {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#layerSelectPane {
+    height: 90%;
+    background-color:white;
+    border:solid 1px black;
+}
+
+#tablePane:not(.active){
+    display:none;
+}
+
+#mapPane:not(.active) {
+    display: none;
+}
+

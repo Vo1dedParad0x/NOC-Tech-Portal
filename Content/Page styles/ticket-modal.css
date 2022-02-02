@@ -1,0 +1,56 @@
+﻿section{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    min-width:100%;
+    padding:5px;
+}
+
+.pane-container{
+    height:95%;
+    width:100%;
+    overflow-x:hidden;
+    white-space:nowrap;
+    border:1px solid black;
+    display:inline-flex;
+}
+
+.current{
+}
+
+.modal-body{
+    height:calc(80vh - 30px);
+}
+
+.modal-header,.modal-footer{
+    height:20%;
+}
+
+.modal-dialog{
+    margin:30px auto;
+}
+
+.pane-scrollbar{
+    width:100%;
+    height:5%;
+}
+
+.pane-scrollbar > progress{
+    margin:auto;
+    width:100%;
+}
+
+.services{
+    min-height:100%;
+    width:100%;
+    overflow-y:auto;
+}
+
+.services button{
+    width:100%;
+    display:block;
+}
+
+.services .list-group-item{
+    width:100%
+}
